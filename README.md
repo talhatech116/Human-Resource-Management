@@ -1,74 +1,97 @@
-# 🏢 Human Resource Management (HRM) System  
+# 🌍 VoiceBridge - Translation & Text-to-Speech Platform
 
-A **comprehensive HRM system** built with **Laravel** that helps organizations manage employees, multiple companies, attendance via biometrics, payroll, leave requests, and all employee records in a centralized portal.  
-
----
-
-## 🚀 Key Features  
-
-### 📊 Dashboard & Insights  
-- Intuitive **Admin Dashboard** for complete HR overview  
-- Quick access to employee stats, leaves, and company records  
-- Role-based access for HR/Admin and employees  
-
-![Dashboard](https://github.com/user-attachments/assets/83f5beb4-e5be-41e0-88d5-e9731cf26725)  
+**VoiceBridge** is a modern web application designed to break language barriers by combining **real-time text translation** with **high-quality text-to-speech conversion**. Built for accessibility, productivity, and multilingual communication, it offers a smooth and intuitive user experience.
 
 ---
 
-### 🏢 Multi-Company Management  
-- Add and manage **multiple companies** from a single system  
-- Centralized database for all companies  
-- Assign employees to specific companies  
+## 🚀 Key Features
 
-![Companies](https://github.com/user-attachments/assets/71ef1157-ee5f-475c-8fed-2cda5237ff50)  
+### 🔤 Smart Translation Interface
+- Translate text into **multiple languages instantly**
+- **Visual language grid selector** for quick swapping
+- Clean and distraction-free interface
 
----
-
-### 🧑‍💼 Employee Records & Biometric Attendance  
-- Maintain complete **employee profiles & records**  
-- **Biometric integration** for attendance tracking  
-- View check-in/out logs with accuracy  
-
-![Devices](https://github.com/user-attachments/assets/34da3a1f-514f-4a5d-8777-d56a0026cbfa)  
+https://github.com/user-attachments/assets/bc5362f0-ca70-4ebd-b143-280111795016
 
 ---
 
-### 📝 Leave & Payroll Management  
-- Employees can apply for **leaves** via portal  
-- HR/Admin can **approve/reject leave requests**  
-- **Payroll management** integrated with attendance & leaves  
-- Generate reports for salary and deductions  
+### 📚 Translation History Tracking
+- Automatically logs each translation activity
+- Organized by **timestamp & source language**
+- Displays **original and translated text side-by-side**
 
-![Leaves](https://github.com/user-attachments/assets/4bc78552-d388-4953-a9a2-c0e3a8fc7a63)  
-
----
-
-### 🌐 Employee Self-Service Portal  
-- Secure **Employee Portal** to view personal records  
-- Download payslips and check attendance  
-- Transparency for both employees and HR  
+https://github.com/user-attachments/assets/a8af87c0-2de9-4818-9aea-660e983279cc
 
 ---
 
-## 📚 Case Study: Digitalizing HR Management  
+### 🎙️ Advanced Text-to-Speech (TTS)
+- Converts text to speech using **Google Text-to-Speech**
+- Multiple **voice profiles with avatars**
+- Adjustable **speed and pitch settings**
+- Playback controls: **Play · Pause · Stop**
 
-### 🧩 The Problem  
-Companies often face challenges in:  
-- Handling multiple company branches with different records  
-- Managing employee attendance and leaves manually  
-- Maintaining accurate payroll and deductions  
-- Centralizing employee data across multiple systems  
-
-This leads to **inefficiency, errors, and lack of transparency** in HR processes.  
-
-### 💡 The Solution  
-We developed a **Laravel-based HRM system** that provides:  
-- **Unified dashboard** for HR & Admins  
-- Support for **multi-company records**  
-- **Biometric attendance integration** for accuracy  
-- **Leave & payroll automation** for efficiency  
-- **Employee self-service portal** for transparency  
-
-This system ensures **streamlined HR processes**, better employee satisfaction, and improved productivity across organizations.  
+https://github.com/user-attachments/assets/f5986552-6a28-4728-910f-ad1c30540d47
 
 ---
+
+### 📊 Speech History Management
+- Dedicated **speech activity log**
+- Displays **voice type and language metadata**
+- **Downloadable audio** for each generated speech
+
+https://github.com/user-attachments/assets/4e6282b3-722d-40e1-8e7e-81473530d6da
+
+---
+
+## 📚 Case Study: Solving the Language Workflow Gap
+
+### 🧩 The Challenge
+Users often need to:
+
+✔ Translate content quickly  
+✔ Convert that translation into audio for **accessibility or learning**  
+✔ Keep track of both **translation and speech history**  
+
+Existing tools handle **either** translation **or** TTS — rarely both in one smooth pipeline.
+
+---
+
+### ✅ The VoiceBridge Solution
+
+| Capability             | Traditional Tools | VoiceBridge |
+|------------------------|------------------|-------------|
+| Multi-language translation | ✅ | ✅ |
+| Text-to-Speech conversion | ✅ | ✅ |
+| Unified workflow (Translate → Speak → Download) | ❌ | ✅ |
+| Separate history logs for Translation & TTS | ❌ | ✅ |
+
+VoiceBridge delivers **speed, clarity, and consistency** in multilingual communication.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology |
+|------------|------------|
+| Backend    | **Laravel 12** |
+| Frontend   | **Bootstrap + JavaScript** |
+| Database   | **MySQL** |
+| Translation Engine | **Google Translate API** |
+| Text-to-Speech | **Google Text-to-Speech / Web Speech API** |
+| Icons      | **Font Awesome** |
+
+---
+
+## 🙌 Contributing
+
+Have ideas to improve VoiceBridge? PRs and suggestions are welcome!
+
+---
+
+## 📄 License
+
+Released under the **MIT License** — free to use and extend.
+
+---
+
+⭐ If you find this helpful, **star the repository** and share it!
